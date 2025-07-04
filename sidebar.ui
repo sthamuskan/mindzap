@@ -68,7 +68,7 @@
             <string/>
            </property>
            <property name="pixmap">
-            <pixmap resource="resources.qrc">:/icon/icon/logo_icon.png</pixmap>
+            <pixmap resource="resource.qrc">:/icon/icon/logo_icon.png</pixmap>
            </property>
            <property name="scaledContents">
             <bool>true</bool>
@@ -88,7 +88,7 @@
             <string/>
            </property>
            <property name="icon">
-            <iconset resource="resources.qrc">
+            <iconset resource="resource.qrc">
              <normaloff>:/icon/icon/home_icon.png</normaloff>:/icon/icon/home_icon.png</iconset>
            </property>
            <property name="iconSize">
@@ -111,7 +111,7 @@
             <string/>
            </property>
            <property name="icon">
-            <iconset resource="resources.qrc">
+            <iconset resource="resource.qrc">
              <normaloff>:/icon/icon/flashcard_icon.png</normaloff>:/icon/icon/flashcard_icon.png</iconset>
            </property>
            <property name="iconSize">
@@ -134,7 +134,7 @@
             <string/>
            </property>
            <property name="icon">
-            <iconset resource="resources.qrc">
+            <iconset resource="resource.qrc">
              <normaloff>:/icon/icon/quizzes_icon.png</normaloff>:/icon/icon/quizzes_icon.png</iconset>
            </property>
            <property name="iconSize">
@@ -157,7 +157,7 @@
             <string/>
            </property>
            <property name="icon">
-            <iconset resource="resources.qrc">
+            <iconset resource="resource.qrc">
              <normaloff>:/icon/icon/aboutus_icon.png</normaloff>:/icon/icon/aboutus_icon.png</iconset>
            </property>
            <property name="iconSize">
@@ -180,7 +180,7 @@
             <string/>
            </property>
            <property name="icon">
-            <iconset resource="resources.qrc">
+            <iconset resource="resource.qrc">
              <normaloff>:/icon/icon/setting_icon.png</normaloff>:/icon/icon/setting_icon.png</iconset>
            </property>
            <property name="iconSize">
@@ -218,7 +218,7 @@
           <string/>
          </property>
          <property name="icon">
-          <iconset resource="resources.qrc">
+          <iconset resource="resource.qrc">
            <normaloff>:/icon/icon/logout_icon.png</normaloff>:/icon/icon/logout_icon.png</iconset>
          </property>
          <property name="iconSize">
@@ -288,7 +288,7 @@
             </font>
            </property>
            <property name="text">
-            <string>Sidebar</string>
+            <string>Slidebar</string>
            </property>
           </widget>
          </item>
@@ -304,10 +304,6 @@
            <property name="text">
             <string>Home</string>
            </property>
-           <property name="icon">
-            <iconset resource="resources.qrc">
-             <normaloff>:/icon/icon/home_icon.png</normaloff>:/icon/icon/home_icon.png</iconset>
-           </property>
            <property name="checkable">
             <bool>true</bool>
            </property>
@@ -320,10 +316,6 @@
           <widget class="QPushButton" name="flash_btn_2">
            <property name="text">
             <string>Flashcard</string>
-           </property>
-           <property name="icon">
-            <iconset resource="resources.qrc">
-             <normaloff>:/icon/icon/flashcard_icon.png</normaloff>:/icon/icon/flashcard_icon.png</iconset>
            </property>
            <property name="checkable">
             <bool>true</bool>
@@ -338,10 +330,6 @@
            <property name="text">
             <string>Quizze</string>
            </property>
-           <property name="icon">
-            <iconset resource="resources.qrc">
-             <normaloff>:/icon/icon/quizzes_icon.png</normaloff>:/icon/icon/quizzes_icon.png</iconset>
-           </property>
            <property name="checkable">
             <bool>true</bool>
            </property>
@@ -355,10 +343,6 @@
            <property name="text">
             <string>About Us</string>
            </property>
-           <property name="icon">
-            <iconset resource="resources.qrc">
-             <normaloff>:/icon/icon/aboutus_icon.png</normaloff>:/icon/icon/aboutus_icon.png</iconset>
-           </property>
            <property name="checkable">
             <bool>true</bool>
            </property>
@@ -371,10 +355,6 @@
           <widget class="QPushButton" name="setting_2">
            <property name="text">
             <string>Settings</string>
-           </property>
-           <property name="icon">
-            <iconset resource="resources.qrc">
-             <normaloff>:/icon/icon/setting_icon.png</normaloff>:/icon/icon/setting_icon.png</iconset>
            </property>
            <property name="checkable">
             <bool>true</bool>
@@ -417,7 +397,10 @@
     </item>
     <item row="0" column="2">
      <widget class="QWidget" name="widget_3" native="true">
-      <layout class="QGridLayout" name="gridLayout_9">
+      <layout class="QVBoxLayout" name="verticalLayout_5">
+       <property name="spacing">
+        <number>0</number>
+       </property>
        <property name="leftMargin">
         <number>0</number>
        </property>
@@ -430,24 +413,12 @@
        <property name="bottomMargin">
         <number>0</number>
        </property>
-       <item row="0" column="0">
+       <item>
         <widget class="QWidget" name="widget" native="true">
-         <property name="sizePolicy">
-          <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
-           <horstretch>0</horstretch>
-           <verstretch>0</verstretch>
-          </sizepolicy>
-         </property>
          <property name="minimumSize">
           <size>
            <width>0</width>
            <height>40</height>
-          </size>
-         </property>
-         <property name="maximumSize">
-          <size>
-           <width>16777215</width>
-           <height>60</height>
           </size>
          </property>
          <layout class="QHBoxLayout" name="horizontalLayout_4">
@@ -472,7 +443,7 @@
              <string/>
             </property>
             <property name="icon">
-             <iconset resource="resources.qrc">
+             <iconset resource="resource.qrc">
               <normaloff>:/icon/icon/menu_icon.png</normaloff>:/icon/icon/menu_icon.png</iconset>
             </property>
             <property name="iconSize">
@@ -517,7 +488,7 @@
                <string/>
               </property>
               <property name="icon">
-               <iconset resource="resources.qrc">
+               <iconset resource="resource.qrc">
                 <normaloff>:/icon/icon/search_icon.png</normaloff>:/icon/icon/search_icon.png</iconset>
               </property>
               <property name="iconSize">
@@ -549,7 +520,7 @@
              <string/>
             </property>
             <property name="icon">
-             <iconset resource="resources.qrc">
+             <iconset resource="resource.qrc">
               <normaloff>:/icon/icon/profile.jpeg</normaloff>:/icon/icon/profile.jpeg</iconset>
             </property>
             <property name="iconSize">
@@ -563,10 +534,10 @@
          </layout>
         </widget>
        </item>
-       <item row="1" column="0">
+       <item>
         <widget class="QStackedWidget" name="stackedWidget">
          <property name="currentIndex">
-          <number>0</number>
+          <number>1</number>
          </property>
          <widget class="QWidget" name="page">
           <layout class="QGridLayout" name="gridLayout_2">
@@ -728,7 +699,7 @@
   </widget>
  </widget>
  <resources>
-  <include location="resources.qrc"/>
+  <include location="resource.qrc"/>
  </resources>
  <connections>
   <connection>
@@ -738,8 +709,8 @@
    <slot>setVisible(bool)</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>175</x>
-     <y>31</y>
+     <x>178</x>
+     <y>28</y>
     </hint>
     <hint type="destinationlabel">
      <x>16</x>
@@ -754,11 +725,11 @@
    <slot>setHidden(bool)</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>175</x>
-     <y>31</y>
+     <x>178</x>
+     <y>28</y>
     </hint>
     <hint type="destinationlabel">
-     <x>138</x>
+     <x>141</x>
      <y>446</y>
     </hint>
    </hints>
@@ -774,7 +745,7 @@
      <y>188</y>
     </hint>
     <hint type="destinationlabel">
-     <x>137</x>
+     <x>140</x>
      <y>149</y>
     </hint>
    </hints>
@@ -790,7 +761,7 @@
      <y>157</y>
     </hint>
     <hint type="destinationlabel">
-     <x>137</x>
+     <x>140</x>
      <y>125</y>
     </hint>
    </hints>
@@ -806,7 +777,7 @@
      <y>132</y>
     </hint>
     <hint type="destinationlabel">
-     <x>137</x>
+     <x>140</x>
      <y>101</y>
     </hint>
    </hints>
@@ -822,7 +793,7 @@
      <y>101</y>
     </hint>
     <hint type="destinationlabel">
-     <x>137</x>
+     <x>140</x>
      <y>77</y>
     </hint>
    </hints>
@@ -838,7 +809,7 @@
      <y>72</y>
     </hint>
     <hint type="destinationlabel">
-     <x>137</x>
+     <x>140</x>
      <y>53</y>
     </hint>
    </hints>
@@ -850,7 +821,7 @@
    <slot>setChecked(bool)</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>137</x>
+     <x>140</x>
      <y>53</y>
     </hint>
     <hint type="destinationlabel">
@@ -866,7 +837,7 @@
    <slot>setChecked(bool)</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>137</x>
+     <x>140</x>
      <y>77</y>
     </hint>
     <hint type="destinationlabel">
@@ -882,7 +853,7 @@
    <slot>setChecked(bool)</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>137</x>
+     <x>140</x>
      <y>101</y>
     </hint>
     <hint type="destinationlabel">
@@ -898,7 +869,7 @@
    <slot>setChecked(bool)</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>137</x>
+     <x>140</x>
      <y>125</y>
     </hint>
     <hint type="destinationlabel">
@@ -914,7 +885,7 @@
    <slot>setChecked(bool)</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>137</x>
+     <x>140</x>
      <y>149</y>
     </hint>
     <hint type="destinationlabel">
