@@ -68,7 +68,7 @@
             <string/>
            </property>
            <property name="pixmap">
-            <pixmap resource="resource.qrc">:/icon/icon/logo_icon.png</pixmap>
+            <pixmap resource="resources.qrc">:/icon/icon/logo_icon.png</pixmap>
            </property>
            <property name="scaledContents">
             <bool>true</bool>
@@ -88,7 +88,7 @@
             <string/>
            </property>
            <property name="icon">
-            <iconset resource="resource.qrc">
+            <iconset resource="resources.qrc">
              <normaloff>:/icon/icon/home_icon.png</normaloff>:/icon/icon/home_icon.png</iconset>
            </property>
            <property name="iconSize">
@@ -111,7 +111,7 @@
             <string/>
            </property>
            <property name="icon">
-            <iconset resource="resource.qrc">
+            <iconset resource="resources.qrc">
              <normaloff>:/icon/icon/flashcard_icon.png</normaloff>:/icon/icon/flashcard_icon.png</iconset>
            </property>
            <property name="iconSize">
@@ -134,7 +134,7 @@
             <string/>
            </property>
            <property name="icon">
-            <iconset resource="resource.qrc">
+            <iconset resource="resources.qrc">
              <normaloff>:/icon/icon/quizzes_icon.png</normaloff>:/icon/icon/quizzes_icon.png</iconset>
            </property>
            <property name="iconSize">
@@ -157,7 +157,7 @@
             <string/>
            </property>
            <property name="icon">
-            <iconset resource="resource.qrc">
+            <iconset resource="resources.qrc">
              <normaloff>:/icon/icon/aboutus_icon.png</normaloff>:/icon/icon/aboutus_icon.png</iconset>
            </property>
            <property name="iconSize">
@@ -180,7 +180,7 @@
             <string/>
            </property>
            <property name="icon">
-            <iconset resource="resource.qrc">
+            <iconset resource="resources.qrc">
              <normaloff>:/icon/icon/setting_icon.png</normaloff>:/icon/icon/setting_icon.png</iconset>
            </property>
            <property name="iconSize">
@@ -218,7 +218,7 @@
           <string/>
          </property>
          <property name="icon">
-          <iconset resource="resource.qrc">
+          <iconset resource="resources.qrc">
            <normaloff>:/icon/icon/logout_icon.png</normaloff>:/icon/icon/logout_icon.png</iconset>
          </property>
          <property name="iconSize">
@@ -443,7 +443,7 @@
              <string/>
             </property>
             <property name="icon">
-             <iconset resource="resource.qrc">
+             <iconset resource="resources.qrc">
               <normaloff>:/icon/icon/menu_icon.png</normaloff>:/icon/icon/menu_icon.png</iconset>
             </property>
             <property name="iconSize">
@@ -488,7 +488,7 @@
                <string/>
               </property>
               <property name="icon">
-               <iconset resource="resource.qrc">
+               <iconset resource="resources.qrc">
                 <normaloff>:/icon/icon/search_icon.png</normaloff>:/icon/icon/search_icon.png</iconset>
               </property>
               <property name="iconSize">
@@ -520,7 +520,7 @@
              <string/>
             </property>
             <property name="icon">
-             <iconset resource="resource.qrc">
+             <iconset resource="resources.qrc">
               <normaloff>:/icon/icon/profile.jpeg</normaloff>:/icon/icon/profile.jpeg</iconset>
             </property>
             <property name="iconSize">
@@ -537,7 +537,7 @@
        <item>
         <widget class="QStackedWidget" name="stackedWidget">
          <property name="currentIndex">
-          <number>3</number>
+          <number>1</number>
          </property>
          <widget class="QWidget" name="page">
           <layout class="QGridLayout" name="gridLayout_2">
@@ -699,7 +699,7 @@
   </widget>
  </widget>
  <resources>
-  <include location="resource.qrc"/>
+  <include location="resources.qrc"/>
  </resources>
  <connections>
   <connection>
